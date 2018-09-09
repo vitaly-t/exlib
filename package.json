@@ -2,10 +2,8 @@
   "name": "exlib",
   "version": "0.0.1",
   "description": "Reusable components for Excellent.js",
-  "scripts": {
-  },
-  "files": [
-  ],
+  "scripts": {},
+  "files": [],
   "homepage": "https://github.com/vitaly-t/exlib",
   "repository": {
     "type": "git",
@@ -29,6 +27,7 @@
     "npm": ">=3.10"
   },
   "devDependencies": {
+    "excellent.js": "1.5.1",
     "gulp": "4.0.0",
     "gulp-eslint": "5.0.0",
     "gulp-gzip": "1.4.2",
