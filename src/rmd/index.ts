@@ -17,5 +17,5 @@ function remedyModule(scope) {
     };
 }
 
-excellent.addModule('rmd', remedyModule);
 excellent.addModule('remedy', remedyModule);
+excellent.addModule('rmd', remedyModule);

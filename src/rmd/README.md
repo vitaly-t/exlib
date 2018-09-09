@@ -1,7 +1,7 @@
 Resize + Move + Drag'n Drop
 ---------------------------
 
-`RMD` / `remedy` module:
+`rmd` / `remedy` module:
 
 * Resizable elements
 * Movable elements
