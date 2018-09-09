@@ -1,5 +1,8 @@
 import {EController} from 'excellent.js';
 
-export function movable(ctrl: EController) {
+interface MovableController extends EController {
+}
+
+export function movable(ctrl: MovableController) {
 
 }
