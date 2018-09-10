@@ -83,7 +83,7 @@
         throw new Error('Controller ' + name + ' not implemented yet.');
     }
 
-    function remedyModule(scope) {
+    function rmdModule(scope) {
         scope.resizable = resizableController;
         scope.resizable.x = resizableXController;
         scope.resizable.y = resizableYController;
@@ -95,6 +95,6 @@
         };
     }
 
-    exc.addModule('rmd', remedyModule);
+    exc.addModule('rmd', rmdModule);
 
 })(excellent);
