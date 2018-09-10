@@ -1,1 +1,9 @@
-Each module/service is expected to reside inside its own folder here.
+# Modules
+
+* `dialog` / `dlg`
+
+* `remedy` / `rmd`
+  - Resizable elements
+  - Movable elements
+  - Drag'n Drop
+
