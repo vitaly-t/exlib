@@ -1,9 +1,7 @@
 # Modules
 
-* `dialog` / `dlg`
-
-* `remedy` / `rmd`
+* `dlg` - dialog
+* `rmd` - resizing + moving + dragging
   - Resizable elements
   - Movable elements
   - Drag'n Drop
-

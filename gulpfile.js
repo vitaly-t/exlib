@@ -56,8 +56,8 @@ function fullTask(name) {
     gulp.task(name, gulp.series(['mod-' + name, 'zip-' + name]));
 }
 
-fullTask('remedy');
-fullTask('dialog');
+fullTask('rmd');
+fullTask('dlg');
 
-gulp.task('build', gulp.parallel(['lint', 'remedy', 'dialog']));
+gulp.task('build', gulp.parallel(['lint', 'rmd', 'dlg']));
 gulp.task('default', gulp.series(['build']));

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" e-root="app">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="../../node_modules/excellent.js/src/excellent.min.js"></script>
+    <script src="../../src/rmd.js"></script>
+</head>
+
+<body>
+<p>A simple implementation of a <b>movable</b> element / component.</p>
+
+<div class="dialog">
+    <div e-bind="rmd.movable" class="dlg-title">
+        Movable Area
+    </div>
+    <div class="dlg-body">
+        Movable area at the top has its target set to the container, like it would when implementing a dialog box.
+        <hr/>
+        Some items here:
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+</div>
+
+<div e-bind="rmd.movable" class="simple-panel">
+    By default, <b>movable</b> component moves only itself.
+</div>
+
+<script>
+    app.onReady = function () {
+        // To make it work like in a dialog box, we set
+        // the container to be the target movable element:
+        var e = document.getElementsByClassName('dialog')[0];
+        app.find('rmd.movable')[0].setTarget(e);
+    };
+</script>
+</body>
+
+</html>

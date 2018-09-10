@@ -1,0 +1,38 @@
+[e-bind="rmd.movable"] {
+    cursor: grab;
+}
+
+.dialog {
+    border: 2px solid SteelBlue;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.dialog hr {
+    background-color: SteelBlue;
+    color: SteelBlue;
+    height: 0px;
+}
+
+.dlg-title {
+    background-color: SteelBlue;
+    color: White;
+    padding: 10px;
+}
+
+.dlg-body {
+    background-color: LightYellow;
+    padding: 10px;
+}
+
+.simple-panel {
+    position: absolute;
+    top: 300px;
+    display: inline-block;
+    background-color: Orange;
+    color: Maroon;
+    border: 2px dotted Brown;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
