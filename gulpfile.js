@@ -12,7 +12,7 @@ const npm = {
 };
 
 const version = require('./package.json').version;
-const year = 2018;
+const year = (new Date()).getFullYear();
 
 const copyright = name =>
     `/**
